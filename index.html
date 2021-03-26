@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="basic calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Basic JavaScript Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h3>Simple Calculator</h3>
+        <form id="holder">
+        <input type="text" id="displayarea" readonly>
+        <div class="grid-container">
+            <div class="keypad1">
+                <input type="button" value="0" id="zero"> 
+                <input type="button" value="1" id="one"> 
+                <input type="button" value="2" id="two"> 
+                <input type="button" value="+" id="plus"> 
+            </div>
+            <div class="keypad2">
+                <input type="button" value="3" id="three"> 
+                <input type="button" value="4" id="four"> 
+                <input type="button" value="5" id="five"> 
+                <input type="button" value="-" id="minus"> 
+            </div>
+            <div class="keypad3">
+            <input type="button" value="6" id="six"> 
+            <input type="button" value="7" id="seven"> 
+            <input type="button" value="8" id="eight"> 
+            <input type="button" value="X" id="multiply"> 
+            </div>
+        <div class="keypad4">
+            <input type="button" value="9" id="nine"> 
+            <input type="button" value="C" id="clear"> 
+            <input type="button" value="=" id="equals"> 
+            <input type="button" value="&#247" id="division">
+        </div>
+        <div class="keypad5">
+            <input type="button" value="." id="decimaldot"> 
+        </div> 
+        </form>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+input#displayarea{
+    display:block;
+}
+input[type="button"]{
+    height:50px;
+    width:50px;
+    font-size: larger;
+}
+input[type="text"]{
+    height:50px;
+    width:204px;
+    margin-bottom:10px;
+    font-size: larger;
+    border: 2px solid #000;
+    border-radius:5px;
+}
+
+input[type="button"]:hover{
+
+    background-color: chocolate;
+    color:white;
+}
+.keypad1{grid-area: first-section;}
+.keypad2{grid-area:second-section;}
+.keypad3{grid-area:third-section;}
+.keypad4{grid-area:fourth-section;}
+.keypad5{grid-area:fifth-section}
+
+.grid-container{
+    display:grid;
+    grid-template-areas: 
+    'first-section'
+    'second-section'
+    'third-section'
+    'fourth-section'
+    'fifth-section';
+    row-gap:10px;
+    column-gap:10px;;
+
+}
+
